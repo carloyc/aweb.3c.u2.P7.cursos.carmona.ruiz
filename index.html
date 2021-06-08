@@ -10,172 +10,236 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <title> Práctica 7 HTML </title>
+    <title>Cursos Utez</title>
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Cursos Utez</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#">
+            <img src="img/u.png" style="width: 15%;" alt=""> Cursos Utez
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                cursos Modalidad
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Presencial</a>
-                <a class="dropdown-item" href="#">¿ remoto</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#"> mixto </a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="view/instructores.html">Instructores</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cursos Modalidad
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Prescencial</a>
+                        <a class="dropdown-item" href="#">Remoto</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Mixto</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+
         </div>
-      </nav>
+    </nav>
+
     <div class="container">
 
-            <!-- 
-                table-striped > colorea uno si y uno no 
-                table-hover > ilumina el renglon activo
-                table-bordered > crea todos los borde de la tabla
-                table-borderless > remueve todo los bordes de la tabla
-                table-responsive-sm
-                table-responsive-md
-                table-responsive-lg
-                table-responsive-xl
-            -->
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="img/curso.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Creatividad Y Diseño</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="/view/inscribirme.html" class="btn btn-primary">Inscribirme</a>
+                    </div>
+                </div>
+            </div>
 
-        <div class="table-responsive">
-            <table class="table table-dark table-striped table-hover table-borderless table-sm">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="img/curso2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Base de Datos</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="/view/inscribirme.html" class="btn btn-primary">Inscribirme</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="img/curso3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Arte Contemporanea</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="/view/inscribirme.html" class="btn btn-primary">Inscribirme</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="img/curso4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo Software multiplataforma</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="/view/inscribirme.html" class="btn btn-primary">Inscribirme</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="img/curso5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Música</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="/view/inscribirme.html" class="btn btn-primary">Inscribirme</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- 
+            table-striped > Colorea un renglon si y uno no
+            table-hover > Remarca el renglon activo
+            table-bordered > crea todos los bordes de la tabla
+            tabla-borderless > remueve todos los bordes de la tabla
+            table-sm > se comprime la tabla
+            table-responsive-sm
+            table-responsive-lgmd
+            table-responsive-lg
+            table-responsive-xl
+        -->
+
+        <div class="table-responsive-md">
+            <table class="table table-striped table-hover table-borderless ">
                 <thead class="thead-dark">
                     <tr>
-                        <th> No. </th>
-                        <th> Nombre </th>
-                        <th> Tipo </th>
-                        <th> Modalidad </th>
-                        <th> Instructor </th>
-                        <th> Acciones  </th>
+                        <th>No.</th>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Modalidad</th>
+                        <th>Instructor</th>
+                        <th>Acciones</th>
                     </tr>
                 </thead>
-
                 <tbody>
-                    <tr class="table-primary">
-                        <td> 1 </td>
-                        <td> Bootstrap Básico </td>
-                        <td> Taller </td>
-                        <td> Remoto </td>
-                        <td> I.T.I José N. </td>
+                    <tr class="bg-primary">
+                        <td>1</td>
+                        <td>Bootstrap básico</td>
+                        <td>Taller</td>
+                        <td>Remoto</td>
+                        <td>I.T.I. José Christian Narváez Figueroa</td>
                         <td>
-                            <button class="btn btn-success">
-                                Modificar
-                            </button>
-                            <button class="btn btn-danger">
-                                Eliminar
-                            </button>
-                        </td>
-                    </tr>
-                    <tr class="table-danger">
-                        <td> 2 </td>
-                        <td> JavaScript Básico </td>
-                        <td> Taller </td>
-                        <td> Presencial </td>
-                        <td> I.T.I Reynel F. </td>
-                        <td> 
-                            <a class= "btn btn-success" href="#"> Modificar </a>
-                            <a class= "btn btn-warning" href="#"> Eliminar </a>        
+                            <button class="btn btn-success">Modificar</button>
+                            <button class="btn btn-danger">Eliminar</button>
                         </td>
                     </tr>
                     <tr class="bg-warning">
-                        <td> 3 </td>
-                        <td> HTML Básico </td>
-                        <td> Curso </td>
-                        <td> Presencial </td>
-                        <td> I.T.I Reynel F. </td>
+                        <td>2</td>
+                        <td>HTML5 Básico</td>
+                        <td>Taller</td>
+                        <td>Remoto</td>
+                        <td>I.T.I Reynel Flores Brito</td>
                         <td>
                             <input type="button" class="btn btn-info" value="Modificar" />
                             <input type="button" class="btn btn-secondary" value="Eliminar" />
                         </td>
                     </tr>
-                    <tr class="bg-warning">
-                        <td> 4 </td>
-                        <td> JavaEE </td>
-                        <td> Básico </td>
-                        <td class="bg-success"> Mixto </td>
-                        <td> I.T.I José N. </td>
+                    <tr class="bg-danger">
+                        <td>3</td>
+                        <td>Javascript básico</td>
+                        <td>Taller</td>
+                        <td>Prescencial</td>
+                        <td>I.T.I Reynel Flores Brito</td>
                         <td>
-                            <button class="btn btn-outline-primary">
-                                modificar
-                            </button>
-                            <button class="btn btn-outline-danger">
-                                eliminar
-                            </button>
+                            <a class="btn btn-success" href="#">Modificar</a>
+                            <a class="btn btn-warning" href="#">Eliminar</a>
                         </td>
                     </tr>
                     <tr class="bg-info">
-                        <td> 1 </td>
-                        <td> Bootstrap Básico </td>
-                        <td> Taller </td>
-                        <td> Remoto </td>
-                        <td> I.T.I José N. </td>
+                        <td>4</td>
+                        <td>CSS básico</td>
+                        <td>Curso</td>
+                        <td class="bg-success">Mixto</td>
+                        <td>I.TI.I José Christian Narváez Figueroa</td>
                         <td>
-                            <button class="btn btn-outline-primary btn-lg">
-                                modificar
+                            <button class="btn btn-outline-warning">
+                                Modificar
+                            </button>
+                            <button class="btn btn-outline-danger">
+                                Eliminar
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr class="bg-primary">
+                        <td>4</td>
+                        <td>CSS básico</td>
+                        <td>Curso</td>
+                        <td class="bg-success">Mixto</td>
+                        <td>I.TI.I José Christian Narváez Figueroa</td>
+                        <td>
+                            <button class="btn btn-outline-warning btn-lg">
+                                Modificar
                             </button>
                             <button class="btn btn-outline-danger btn-sm">
-                                eliminar
+                                Eliminar
                             </button>
                         </td>
                     </tr>
-                    <tr>
-                        <td> 2 </td>
-                        <td> JavaScript Básico </td>
-                        <td> Taller </td>
-                        <td> Presencial </td>
-                        <td> I.T.I Reynel F. </td>
+
+                    <tr class="bg-warning">
+                        <td>4</td>
+                        <td>CSS básico</td>
+                        <td>Curso</td>
+                        <td class="bg-success">Mixto</td>
+                        <td>I.TI.I José Christian Narváez Figueroa</td>
                         <td>
-                            <button class="btn btn-outline-primary btn-block">
-                                modificar
+                            <button class="btn btn-primary btn-block">
+                                Modificar
                             </button>
                             <button class="btn btn-outline-danger btn-block">
-                                eliminar
+                                Eliminar
                             </button>
                         </td>
                     </tr>
-                    <tr>
-                        <td> 3 </td>
-                        <td> HTML Básico </td>
-                        <td> Curso </td>
-                        <td> Presencial </td>
-                        <td> I.T.I Reynel F. </td>
-                    </tr>
-                    <tr>
-                        <td> 4 </td>
-                        <td> JavaEE </td>
-                        <td> Básico </td>
-                        <td class="table-success"> Mixto </td>
-                        <td> I.T.I José N. </td>
-                    </tr>
+
                 </tbody>
             </table>
         </div>
     </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
